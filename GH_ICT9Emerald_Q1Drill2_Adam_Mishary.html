@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q1-DRILL 2</title>
+    <style>
+        body{
+            background-color: rgb(251, 230, 190);
+        }
+        .header{
+            font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+
+        }
+        
+        .header-text{
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Tahoma, Verdana, sans-serif;
+        font-size: 40px;
+        font-style: italic;
+        color: rgb(235, 224, 186);
+        background-color: #d54040;
+        border: 1px solid #d54040;
+        border-radius: 15px;
+        padding: 15px;
+        }
+        
+        .header-sub{
+            text-align: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 20px;
+        }
+        .movie-box {
+            background-color: white;
+            width: 400px;
+            height: 400px;
+            text-align: center;
+            border-radius: 8px;
+            padding-top: 20px;
+            margin: 40px auto;
+        }
+        .movie-icon {
+            background-color: rgb(255, 104, 79);
+            width: 100px;
+            height: 100px;
+            font-size: 50px;
+            padding-top: 15px;
+            box-sizing: border-box;
+            border-radius: 50%;
+            margin: auto;
+        }
+        .genres {
+            font-size: 12px;
+        }
+
+        .rating {
+            font-size: 12px;
+        }
+        .textarea {
+            width: 300px;
+            height: 70px;
+            margin-top: 10px;
+        }
+        .button {
+            margin-top: 15px;
+            padding: 10px;
+            width: 320px;
+            background-color: rgb(122, 31, 31);
+            color: rgb(221, 208, 208);
+            border: none;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="header-text">
+        <h2>Rate A Movie</h2>
+    </div>
+
+    <div class="header-sub">
+        <p>Share your top pick movie and write a review.</p>
+
+    </div>
+    
+    <!-- Main Movie Box -->
+    <div class="movie-box">
+
+        <!-- Movie Icon -->
+        <div class="movie-icon">
+            🎬
+        </div>
+
+        <!-- Movie Title -->
+        <div class="movie-title">
+            <input type="text" placeholder="Movie Title">
+        </div>
+
+        <!-- Genres -->
+        <h3>
+            GENRES <i>(select all that apply):</i>
+        </h3>
+
+        <div class="genres">
+            <label>
+            <input type="checkbox">Action
+            </label>
+
+            <label>
+            <input type="checkbox">Comedy
+            </label>
+
+            <label>
+            <input type="checkbox">Drama
+            </label>
+
+            <label>
+            <input type="checkbox">Fantasy
+            </label>
+
+            <label>
+            <input type="checkbox">Sci-Fi
+            </label>
+        </div>
+
+        <!-- Rating -->
+        <h3>RATING:</h3>
+
+        <div class="rating">
+       <input type="radio" name="rating"> ⭐
+       <input type="radio" name="rating"> ⭐⭐
+       <input type="radio" name="rating"> ⭐⭐⭐
+       <input type="radio" name="rating"> ⭐⭐⭐⭐
+       <input type="radio" name="rating"> ⭐⭐⭐⭐⭐
+    </div>
+     
+        <!-- Review -->
+        <div class="review">
+        <textarea placeholder="Write your review..."></textarea>
+        <br>
+        <button>Submit Review</button>
+        <p>Movie Review Tips: Click <a href="https://www.nyfa.edu/student-resources/9-tips-for-writing-a-film-review/">here</a></p>
+
+        
+
+    </div>
+
+</body>
+</html>
